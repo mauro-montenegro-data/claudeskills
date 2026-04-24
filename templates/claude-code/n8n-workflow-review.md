@@ -1,8 +1,11 @@
 # n8n Workflow Review Template
 
-Project: [PROJECT]
-Workflow source: [WORKFLOW_JSON_OR_REPO_PATH]
-Objective: [OBJECTIVE]
+## Context
+- Project: [PROJECT]
+- Workflow source: [WORKFLOW_JSON_OR_REPO_PATH]
+
+## Objective
+[OBJECTIVE]
 
 Review this n8n workflow for reliability and production readiness.
 

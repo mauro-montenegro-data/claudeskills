@@ -1,9 +1,11 @@
 # Prompt Audit Template
 
-Task domain: [DOMAIN]
-Original prompt:
+## Context
+- Task domain: [DOMAIN]
+- Original prompt:
 [PASTE_PROMPT]
 
+## Objective
 Audit and compress this prompt before sending it to Claude Code/Codex.
 
 ## Scope

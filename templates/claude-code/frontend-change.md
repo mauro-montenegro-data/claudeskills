@@ -1,8 +1,11 @@
 # Frontend Change Template
 
-Project: [PROJECT]
-Objective: [OBJECTIVE]
-Target screens/components: [FILES_OR_COMPONENTS]
+## Context
+- Project: [PROJECT]
+- Target screens/components: [FILES_OR_COMPONENTS]
+
+## Objective
+[OBJECTIVE]
 
 Implement a scoped frontend change.
 
