@@ -1,6 +1,6 @@
 ---
 name: polpo-client-delivery
-description: Use for preparing client-facing deliverables, implementation reports, handoff notes, and concrete next-step plans with clear professional tone.
+description: Use for client-facing delivery communication after/around execution: status summaries, handoff notes, risk disclosure, and next-step planning.
 ---
 
 ## Purpose
@@ -10,11 +10,12 @@ Standardize how Polpo communicates delivery status, outcomes, and next actions t
 ## When to use
 
 Use this skill when:
-- preparing implementation summaries for clients
-- writing delivery reports after technical execution
-- creating handoff notes for operational continuity
-- drafting commercial/technical summaries tied to scope
-- defining immediate next-step plans and owner responsibilities
+- converting technical execution into a client-readable delivery update
+- drafting implementation/handoff notes with clear scope boundaries
+- reporting blocked items, risks, and dependency ownership without ambiguity
+- proposing immediate next steps with owners and sequence
+
+Do not use this skill to make implementation decisions; pair with technical/operator skills first when needed.
 
 ## Working principles
 
@@ -42,3 +43,4 @@ Return sections in this order:
 - Overly promotional tone
 - Technical detail without business relevance
 - Next steps without responsible owner suggestions
+- Committing dates/scope that were not validated with the project team

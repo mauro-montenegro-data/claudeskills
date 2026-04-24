@@ -1,6 +1,6 @@
 ---
 name: polpo-frontend-implementation
-description: Use for Polpo and client frontend execution across Next.js, React, Tailwind, shadcn/ui, UX flows, forms, and mobile-first delivery.
+description: Use for frontend build/review tasks in Next.js/React (Tailwind + shadcn/ui), with concrete focus on component structure, UX flows, and production readiness.
 ---
 
 ## Purpose
@@ -10,11 +10,12 @@ Guide practical frontend implementation decisions for Polpo projects with focus 
 ## When to use
 
 Use this skill when:
-- planning or implementing Next.js and React interfaces
-- building landing pages or institutional websites
-- creating form flows and conversion-oriented UX sections
-- applying Tailwind and shadcn/ui in production-ready structures
-- reviewing frontend readiness for Vercel deployments
+- implementing or refactoring real UI components/pages in Next.js + React
+- reviewing a screen for mobile-first layout, CTA clarity, and accessibility basics
+- structuring form/conversion flows and validating UI states (loading/error/success)
+- checking production readiness (performance basics + Vercel deployment constraints)
+
+Do not use this skill for back-end workflow logic or non-UI architecture decisions.
 
 ## Working principles
 
@@ -44,3 +45,4 @@ Return sections in this order:
 - Long generic marketing copy without clear CTA intent
 - Styling patterns that reduce maintainability
 - Ignoring deployment/runtime constraints until the end
+- UI recommendations that skip accessibility or state-handling checks
