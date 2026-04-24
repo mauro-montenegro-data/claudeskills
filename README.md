@@ -30,6 +30,8 @@ A task prompt is the request for one concrete job (for example, "refactor this f
 - `polpo-frontend-implementation`
 - `polpo-client-delivery`
 
+> Before expanding the library with new skills, audit existing skills for trigger precision and boundary clarity to avoid overlap.
+
 ## Recommended installation approaches
 
 ### Option 1: Global user skills
