@@ -2,6 +2,12 @@
 
 All notable changes to this repository are documented here.
 
+## v0.2.1
+
+- Standardized template section headings for consistency across Claude templates.
+- Ensured every template includes `Context`, `Objective`, `Scope`, `Constraints`, and `Expected output`.
+- No changes to skills in this release.
+
 ## v0.2.0
 
 - Added reusable Claude Code prompt templates in `templates/claude-code/` for common Polpo execution workflows.
