@@ -1,7 +1,10 @@
 # Implementation Prompt Template
 
-Project: [PROJECT]
-Objective: [OBJECTIVE]
+## Context
+- Project: [PROJECT]
+
+## Objective
+[OBJECTIVE]
 
 Implement a scoped technical change.
 

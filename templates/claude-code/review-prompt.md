@@ -1,8 +1,11 @@
 # Review Prompt Template
 
-Project: [PROJECT]
-Review target: [PR_OR_BRANCH_OR_FILES]
-Objective: [OBJECTIVE]
+## Context
+- Project: [PROJECT]
+- Review target: [PR_OR_BRANCH_OR_FILES]
+
+## Objective
+[OBJECTIVE]
 
 Review the existing implementation and provide actionable findings.
 

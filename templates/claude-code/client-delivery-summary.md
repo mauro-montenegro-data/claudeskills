@@ -1,10 +1,12 @@
 # Client Delivery Summary Template
 
-Client: [CLIENT]
-Project: [PROJECT]
-Reporting period: [DATE_RANGE]
-Audience: [AUDIENCE]
+## Context
+- Client: [CLIENT]
+- Project: [PROJECT]
+- Reporting period: [DATE_RANGE]
+- Audience: [AUDIENCE]
 
+## Objective
 Turn technical implementation details into a client-ready update.
 
 ## Scope
