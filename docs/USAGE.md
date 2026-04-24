@@ -1,5 +1,25 @@
 # Using Polpo Skills in Claude Code
 
+## Skills vs templates (when to use each)
+
+Use a **skill** when you need reusable domain behavior, boundaries, and output standards.
+Use a **template** when you need a fast, copy/paste prompt structure for a recurring workflow.
+
+- Pick a **skill** first when task quality depends on specialized guidance (n8n architecture, frontend implementation, delivery framing, prompt auditing).
+- Pick a **template** first when the workflow is clear and you mainly need consistent input formatting.
+- Use both together when useful: template for prompt structure + skill for deeper execution behavior.
+
+## Available prompt templates
+
+Templates live in `templates/claude-code/`:
+
+- `implementation-prompt.md` — scoped technical implementation request.
+- `review-prompt.md` — implementation/PR/repo review request.
+- `prompt-audit.md` — compress and improve a prompt before execution.
+- `n8n-workflow-review.md` — operational review for n8n workflow JSON/repo.
+- `frontend-change.md` — scoped frontend change request.
+- `client-delivery-summary.md` — client-facing delivery update drafting.
+
 ## How skills are used
 
 Skills give Claude Code reusable instructions for specific kinds of work. They help keep output consistent, practical, and aligned with Polpo standards.
