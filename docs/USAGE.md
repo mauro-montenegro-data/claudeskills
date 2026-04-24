@@ -66,3 +66,17 @@ Examples:
 - Use **`polpo-frontend-implementation`** for *UI/component implementation and readiness checks*.
 - Use **`polpo-client-delivery`** for *client-facing reporting and handoff communication*.
 - Use **`polpo-claude-prompt-auditor`** for *improving prompts, not executing the underlying task*.
+
+## Do not use boundaries (quick checks)
+
+- Do **not** use **`polpo-technical-operator`** for domain-specific implementation details when `polpo-n8n-architect` or `polpo-frontend-implementation` is a direct match.
+- Do **not** use **`polpo-n8n-architect`** for frontend UI planning or client report writing.
+- Do **not** use **`polpo-frontend-implementation`** for workflow orchestration design or prompt rewriting.
+- Do **not** use **`polpo-client-delivery`** to make architecture decisions; use it after technical direction is set.
+- Do **not** use **`polpo-claude-prompt-auditor`** as a substitute for task execution skills.
+
+## Common anti-patterns
+
+- Invoking multiple domain skills in parallel before choosing a primary execution path.
+- Producing client-facing output before technical risks and sequence are resolved.
+- Treating prompt-audit output as implementation guidance without a domain execution skill.
