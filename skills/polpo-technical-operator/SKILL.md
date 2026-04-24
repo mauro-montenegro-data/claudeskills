@@ -1,6 +1,6 @@
 ---
 name: polpo-technical-operator
-description: Use for Polpo technical execution, repository changes, architecture decisions, implementation planning, and technical reviews.
+description: Use when deciding how to execute technical work (architecture tradeoffs, repo change sequencing, risk checks) before or around implementation.
 ---
 
 ## Purpose
@@ -10,10 +10,12 @@ Define a practical operating standard for technical work at Polpo: clear scope, 
 ## When to use
 
 Use this skill when:
-- planning or reviewing codebase changes
-- evaluating architecture or integration decisions
-- preparing implementation plans
-- performing technical reviews or risk assessments
+- choosing between implementation options with different cost/risk profiles
+- sequencing a repo change into minimal safe steps
+- reviewing a proposal for assumptions, dependency risks, and rollback needs
+- defining validation criteria before coding starts
+
+Do not use this skill for domain-deep execution details (use the specialized skill first, then apply this one for final decision framing).
 
 ## Working principles
 
@@ -40,3 +42,4 @@ Return sections in this order:
 - Hidden assumptions or unclear dependencies
 - Recommendations that ignore implementation cost
 - Generic AI wording without technical specificity
+- Rewriting domain-specific guidance that already exists in n8n/frontend/client-delivery skills

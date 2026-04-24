@@ -1,6 +1,6 @@
 ---
 name: polpo-claude-prompt-auditor
-description: Use for creating, auditing, and refining Claude Code prompts with strong context, clear acceptance criteria, safety controls, and efficient token usage.
+description: Use when writing or auditing Claude Code prompts for repeated team use, especially to tighten scope, acceptance criteria, and token efficiency.
 ---
 
 ## Purpose
@@ -10,10 +10,12 @@ Improve prompt quality for Claude Code while reducing token cost and preserving 
 ## When to use
 
 Use this skill when:
-- writing new operational prompts for engineering tasks
-- reviewing prompts before repeated team usage
-- simplifying long prompts without losing requirements
-- adding clearer acceptance criteria and guardrails
+- turning rough task notes into an operator-ready Claude Code prompt
+- auditing an existing prompt that produces inconsistent results
+- compressing long prompts while preserving non-negotiable constraints
+- adding explicit acceptance criteria, safety boundaries, and output structure
+
+Do not use this skill to execute the task itself; use it to improve the prompt that will drive execution.
 
 ## Working principles
 
@@ -40,3 +42,4 @@ Return sections in this order:
 - Missing acceptance criteria
 - Safety rules implied but not written
 - Verbose style instructions with no operational impact
+- Editing prompts without stating what behavior change is expected

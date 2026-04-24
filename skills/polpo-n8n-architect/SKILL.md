@@ -1,6 +1,6 @@
 ---
 name: polpo-n8n-architect
-description: Use for designing, reviewing, documenting, and refactoring n8n workflows with operational reliability, validation coverage, and rollback readiness.
+description: Use for n8n workflow design/review work: node architecture, data contracts, failure paths, test payloads, and rollback-safe operations.
 ---
 
 ## Purpose
@@ -10,11 +10,12 @@ Provide practical standards for n8n workflow engineering with emphasis on reliab
 ## When to use
 
 Use this skill when:
-- designing new n8n automations
-- reviewing existing workflow JSON structures
-- documenting webhook-driven or event-driven flows
-- integrating Google Sheets, Gmail, and validation steps
-- preparing test payloads, rollback snapshots, and ops handoff notes
+- reviewing workflow JSON before deploy or migration
+- designing webhook/event flows with explicit validation and branch behavior
+- auditing integrations (e.g., Sheets/Gmail) for field mapping and error handling
+- preparing operational artifacts: test payloads, rollback snapshot notes, handoff docs
+
+Do not use this skill for general architecture decisions outside n8n workflow design.
 
 ## Working principles
 
@@ -45,3 +46,4 @@ Return sections in this order:
 - Missing error branches and alerting behavior
 - Undocumented field mappings for Sheets or Gmail
 - Deploying changes without rollback snapshot references
+- Treating workflow documentation as optional after implementation
